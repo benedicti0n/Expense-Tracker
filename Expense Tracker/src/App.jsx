@@ -1,13 +1,14 @@
-import { useState } from 'react'
-import './App.css'
+import ContextProvider from './Contexts/ContextProvider'
+import Component from './Component'
+
 
 function App() {
-
+  
 
   return (
-    <>
-      
-    </>
+     <ContextProvider>
+      <Component/>
+    </ContextProvider>
   )
 }
 
